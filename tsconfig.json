@@ -1,0 +1,9 @@
+// client/tsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]       // 与 vite.config 的 alias 保持一致
+    }
+  }
+}
